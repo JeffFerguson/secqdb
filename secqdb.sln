@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2CEEE5A5-2325-43C5-98CA-CECC9B123EA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FFFFCEB-67D0-41C6-BF64-84F28EAB5D7F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JeffFerguson.SecQDb", "src\JeffFerguson.SecQDb\JeffFerguson.SecQDb.xproj", "{74E2183D-1B45-4C27-809B-B0F1DAAF3EA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6E6A8B4A-F71B-4524-815F-A67ACE96C03F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SecQDbTest", "test\SecQDbTest\SecQDbTest.xproj", "{DCA2580E-82B9-4DE7-92BD-45753E47E848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74E2183D-1B45-4C27-809B-B0F1DAAF3EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E2183D-1B45-4C27-809B-B0F1DAAF3EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E2183D-1B45-4C27-809B-B0F1DAAF3EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E2183D-1B45-4C27-809B-B0F1DAAF3EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA2580E-82B9-4DE7-92BD-45753E47E848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA2580E-82B9-4DE7-92BD-45753E47E848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA2580E-82B9-4DE7-92BD-45753E47E848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA2580E-82B9-4DE7-92BD-45753E47E848}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74E2183D-1B45-4C27-809B-B0F1DAAF3EA4} = {2CEEE5A5-2325-43C5-98CA-CECC9B123EA4}
+		{DCA2580E-82B9-4DE7-92BD-45753E47E848} = {6E6A8B4A-F71B-4524-815F-A67ACE96C03F}
+	EndGlobalSection
+EndGlobal

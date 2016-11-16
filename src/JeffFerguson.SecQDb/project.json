@@ -1,0 +1,18 @@
+{
+  "title": "SEC Quarterly Database Object Model",
+  "copyright": "Copyright (c) 2016 Jeff Ferguson [JeffFerguson@msn.com]",
+  "description": "Exposes data from SEC Financial Statement Data Sets, available at https://www.sec.gov/dera/data/financial-statement-data-sets.html. The data sets provide selected information extracted from exhibits to corporate financial reports filed with the Commission using eXtensible Business Reporting Language (XBRL).",
+  "language": "en-US",
+  "version": "1.0.0-0",
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "buildOptions": {
+    "xmlDoc": true
+  }
+}

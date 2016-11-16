@@ -1,0 +1,17 @@
+﻿The data set read by the unit tests is too large to be managed by GitHub. Before the tests can be run, you will
+need to download and install the data manually. The process is simple:
+
+1. Download the ZIP file at http://www.sec.gov/data/financial-statements/2015q4.zip.
+2. Unzip the ZIP file and place its contents into the "test/SecQDbTest/2015q4" folder in the solution.
+
+Your "test/SecQDbTest/2015q4" folder should contain the following files:
+
+* installing-test-data.txt (this file)
+* num.txt
+* pre.txt
+* readme.htm (not used by the tests but found in the ZIP file)
+* sub.txt
+* tag.txt
+
+These files are listed in the .gitignore file for the repository, so they will not be committed to the repository
+in any case.
