@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SecQDb</id>
+        <version>1.0.0</version>
+        <title>SecQDb</title>
+        <authors>Jeff Ferguson</authors>
+        <owners>Jeff Ferguson</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Exposes data from SEC Financial Statement Data Sets, available at https://www.sec.gov/dera/data/financial-statement-data-sets.html. The data sets provide selected information extracted from exhibits to corporate financial reports filed with the Commission using eXtensible Business Reporting Language (XBRL).</description>
+    </metadata>
+    <files>
+        <file src="..\src\JeffFerguson.SecQDb\bin\Release\netstandard1.6\JeffFerguson.SecQDb.deps.json" target="lib\netstandard1.6\JeffFerguson.SecQDb.deps.json" />
+        <file src="..\src\JeffFerguson.SecQDb\bin\Release\netstandard1.6\JeffFerguson.SecQDb.dll" target="lib\netstandard1.6\JeffFerguson.SecQDb.dll" />
+        <file src="..\src\JeffFerguson.SecQDb\bin\Release\netstandard1.6\JeffFerguson.SecQDb.pdb" target="lib\netstandard1.6\JeffFerguson.SecQDb.pdb" />
+        <file src="..\src\JeffFerguson.SecQDb\bin\Release\netstandard1.6\JeffFerguson.SecQDb.xml" target="lib\netstandard1.6\JeffFerguson.SecQDb.xml" />
+    </files>
+</package>
